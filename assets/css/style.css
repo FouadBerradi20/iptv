@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cairo", sans-serif;
   color: #444444;
 }
 
@@ -30,7 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cairo", sans-serif;
+  
 }
 
 /*--------------------------------------------------------------
@@ -76,7 +77,7 @@ h6 {
 .back-to-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   right: 15px;
   bottom: 15px;
   z-index: 996;
@@ -182,7 +183,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -230,7 +231,7 @@ h6 {
   margin: 0;
   padding: 10px 0;
   z-index: 99;
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -450,7 +451,7 @@ h6 {
   font-family: "Cairo";
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 50px;
@@ -595,10 +596,10 @@ section {
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .section-title h2::after {
@@ -616,7 +617,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   color: #010483;
 }
 
@@ -829,7 +830,7 @@ section {
 
   100% {
     transform: scale(1, 1);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -915,7 +916,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 14px;
 }
 
@@ -1185,7 +1186,7 @@ section {
   font-size: 36px;
   color: #1acc8d;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1241,7 +1242,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1294,7 +1295,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1522,7 +1523,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 #footer .footer-top .social-links a {
