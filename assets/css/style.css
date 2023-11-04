@@ -14,7 +14,12 @@ body *{
   color: #444444;
   letter-spacing: 1.6px!important;
 }
-
+.cadewa{
+  min-width:120%;
+  margin: -33px -35px -70px 0px;
+  text-align: center;
+  /* position: revert-layer; */
+}
 a {
   color: #1acc8d;
   text-decoration: none;
@@ -699,7 +704,20 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
+.pricing-bgg{
+  background-image: url('../img/bg-pricing.jpg');
+  min-height: 500px;
+}
+.pricing-bg{
+  margin-top: -760px;
+  z-index: 0;
+  padding-bottom: 200px;
+}
+#pricing .box.aos-init.aos-animate{
+  z-index: 100;
+  box-shadow: 0 4px 32px 0 rgba(10,14,29,.02),0 8px 64px 0 rgba(10,14,29,.08)!important;
 
+}
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -1188,14 +1206,14 @@ section {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600;
   color: #777777;
   background: #f8f8f8;
 }
 
 .pricing h4 {
-  font-size: 36px;
+  font-size: 52px;
   color: #1acc8d;
   font-weight: 600;
   font-family: "Cairo", sans-serif;
@@ -1220,7 +1238,7 @@ section {
   color: #444444;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .pricing ul li {
@@ -1248,14 +1266,14 @@ section {
 .pricing .btn-buy {
   background: #1acc8d;
   display: inline-block;
-  padding: 8px 35px 10px 35px;
+  padding: 16px 35px 16px 35px;
   border-radius: 50px;
   color: #fff;
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Cairo", sans-serif;
-  font-weight: 600;
+  font-family: "Cairo";
+  font-weight: 900;
   transition: 0.3s;
 }
 
