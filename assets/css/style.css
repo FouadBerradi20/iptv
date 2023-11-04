@@ -708,6 +708,8 @@ section {
   align-items: center;
   justify-content: center;
   width: 64px;
+  /* padding: 10px 2px; */
+  margin: -5px 10px;
   height: 64px;
   border: 2px solid #7ceec6;
   border-radius: 50px;
@@ -729,9 +731,9 @@ section {
 }
 
 .about .icon-box .title {
-  margin-left: 85px;
+  /* margin-left: 85px; */
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 18px;
 }
 
