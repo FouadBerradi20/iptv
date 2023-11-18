@@ -424,17 +424,23 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/NEw-backk.jpg");
+  background-repeat: no-repeat;
   position: relative;
   padding: 120px 0 0 0;
+  background-position-y: -175px;
+  background-size: cover;
+  background-size: ;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  /* background-size: cover; */
+  /* background: url("../img/NEw-backk,jpg"); */
   position: absolute;
   bottom: 0;
   top: 0;
+  background-repeat: no-repeat;
   left: 0;
   right: 0;
 }
@@ -1700,4 +1706,9 @@ section {
   height: auto;
   width: 10%;
   margin: 1%;
+}
+
+.paddingg{
+  padding-top:300px;
+  padding-bottom:50px;
 }
