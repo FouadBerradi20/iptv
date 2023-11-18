@@ -1709,6 +1709,10 @@ section {
 }
 
 .paddingg{
-  padding-top:300px;
-  padding-bottom:50px;
+  padding-top:100px;
+  padding-bottom:150px;
+}
+
+.sizeslides{
+	height:auto !important;	
 }
